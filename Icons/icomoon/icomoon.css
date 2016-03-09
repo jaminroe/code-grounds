@@ -1,0 +1,356 @@
+@font-face {
+    font-family: 'icomoon';
+    src:
+        url('fonts/icomoon.ttf?7m6c9j') format('truetype'),
+        url('fonts/icomoon.woff?7m6c9j') format('woff'),
+        url('fonts/icomoon.svg?7m6c9j#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-proj-docs:before {
+    content: "\e90c";
+}
+.ico-static:before {
+    content: "\e910";
+}
+.ico-review-doc:before {
+    content: "\e90d";
+}
+.ico-dynamic:before {
+    content: "\e909";
+}
+.ico-search-history:before {
+    content: "\e90f";
+}
+.ico-save-search:before {
+    content: "\e90e";
+}
+.ico-camera:before {
+    content: "\e907";
+}
+.ico-dyn-prod:before {
+    content: "\e908";
+}
+.ico-stats-dots:before {
+    content: "\e911";
+}
+.ico-priv-log:before {
+    content: "\e90b";
+}
+.ico-folder-basic:before {
+    content: "\e90a";
+}
+.ico-workspace:before {
+    content: "\e912";
+}
+.ico-collapse:before {
+    content: "\e601";
+}
+.ico-expand:before {
+    content: "\e602";
+}
+.ico-burger-menu:before {
+    content: "\e913";
+}
+.ico-hammer:before {
+    content: "\ea6c";
+}
+.ico-reports:before {
+    content: "\e904";
+}
+.ico-import:before {
+    content: "\e641";
+}
+.ico-environment:before {
+    content: "\e63a";
+}
+.ico-servers:before {
+    content: "\e63f";
+}
+.ico-volumes:before {
+    content: "\ea2a";
+}
+.ico-raw-data:before {
+    content: "\e63b";
+}
+.ico-3rd-party:before {
+    content: "\e63c";
+}
+.ico-teams:before {
+    content: "\e63d";
+}
+.ico-users:before {
+    content: "\e63e";
+}
+.ico-table:before {
+    content: "\e639";
+}
+.ico-trashcan:before {
+    content: "\e637";
+}
+.ico-edit:before {
+    content: "\e915";
+}
+.ico-cloud-upload:before {
+    content: "\eb04";
+}
+.ico-rocket:before {
+    content: "\e600";
+}
+.ico-add-user:before {
+    content: "\e62b";
+}
+.ico-remove-user:before {
+    content: "\e62c";
+}
+.ico-sort-alpha-desc:before {
+    content: "\e62d";
+}
+.ico-sort-alpha-asc:before {
+    content: "\e62e";
+}
+.ico-integer:before {
+    content: "\e620";
+}
+.ico-max-string:before {
+    content: "\e621";
+}
+.ico-string:before {
+    content: "\e622";
+}
+.ico-datetime:before {
+    content: "\e623";
+}
+.ico-help:before {
+    content: "\e903";
+}
+.ico-meter:before {
+    content: "\e640";
+}
+.ico-file-check:before {
+    content: "\e989";
+}
+.ico-viewer-collapse:before {
+    content: "\e61f";
+}
+.ico-close:before {
+    content: "\e61d";
+}
+.ico-pop-in:before {
+    content: "\e611";
+}
+.ico-pop-out:before {
+    content: "\e61c";
+}
+.ico-eye:before {
+    content: "\e1e9";
+}
+.ico-user-line:before {
+    content: "\e60f";
+}
+.ico-view:before {
+    content: "\e610";
+}
+.ico-about:before {
+    content: "\e612";
+}
+.ico-preferences:before {
+    content: "\e613";
+}
+.ico-refresh:before {
+    content: "\e614";
+}
+.ico-search:before {
+    content: "\e636";
+}
+.ico-tools:before {
+    content: "\e615";
+}
+.ico-info-fill:before {
+    content: "\e647";
+}
+.ico-pause-circle-fill:before {
+    content: "\e643";
+}
+.ico-play-circle-fill:before {
+    content: "\e644";
+}
+.ico-cancel:before {
+    content: "\e645";
+}
+.ico-composite:before {
+    content: "\e91a";
+}
+.ico-power:before {
+    content: "\e638";
+}
+.ico-spy:before {
+    content: "\e800";
+}
+.ico-key:before {
+    content: "\e630";
+}
+.ico-open-book:before {
+    content: "\e634";
+}
+.ico-flow-branch:before {
+    content: "\e62f";
+}
+.ico-key-shortcut:before {
+    content: "\e62a";
+}
+.ico-collaboration:before {
+    content: "\e624";
+}
+.ico-globe:before {
+    content: "\e1d8";
+}
+.ico-data-setting:before {
+    content: "\e625";
+}
+.ico-review-planning:before {
+    content: "\e626";
+}
+.ico-briefcase:before {
+    content: "\e196";
+}
+.ico-review-mgmt:before {
+    content: "\e627";
+}
+.ico-group-mgmt:before {
+    content: "\e628";
+}
+.ico-config:before {
+    content: "\e629";
+}
+.ico-folder-processing:before {
+    content: "\e906";
+}
+.ico-autopool:before {
+    content: "\e905";
+}
+.ico-batch:before {
+    content: "\e604";
+}
+.ico-batch-checked-in:before {
+    content: "\e646";
+}
+.ico-batch-checked-out:before {
+    content: "\e646";
+}
+.ico-folder-closed:before {
+    content: "\e605";
+}
+.ico-folder-open:before {
+    content: "\e606";
+}
+.ico-group-tag:before {
+    content: "\e607";
+}
+.ico-export-search:before {
+    content: "\e900";
+}
+.ico-clear-search:before {
+    content: "\e901";
+}
+.ico-execute-search:before {
+    content: "\e902";
+}
+.ico-check-out:before {
+    content: "\e608";
+}
+.ico-check-in:before {
+    content: "\e609";
+}
+.ico-delete-document:before {
+    content: "\e60b";
+}
+.ico-reassign-folder:before {
+    content: "\e60a";
+}
+.ico-add-root:before {
+    content: "\e60c";
+}
+.ico-delete-folder:before {
+    content: "\e60d";
+}
+.ico-reassign:before {
+    content: "\e60e";
+}
+.ico-lock:before {
+    content: "\e631";
+}
+.ico-unlock:before {
+    content: "\e635";
+}
+.ico-production:before {
+    content: "\e632";
+}
+.ico-translated-text:before {
+    content: "\e633";
+}
+.ico-file-tree:before {
+    content: "\e91b";
+}
+.ico-unzip:before {
+    content: "\e91c";
+}
+.ico-ms-excel:before {
+    content: "\e914";
+}
+.ico-ms-powerpoint:before {
+    content: "\e916";
+}
+.ico-ms-project:before {
+    content: "\e917";
+}
+.ico-ms-visio:before {
+    content: "\e918";
+}
+.ico-ms-word:before {
+    content: "\e919";
+}
+.ico-view-all-subdocs:before {
+    content: "\e642";
+}
+.ico-image-viewer:before {
+    content: "\e616";
+}
+.ico-text-viewer:before {
+    content: "\e603";
+}
+.ico-native-viewer:before {
+    content: "\e617";
+}
+.ico-duplicates:before {
+    content: "\e618";
+}
+.ico-near-duplicates:before {
+    content: "\e61e";
+}
+.ico-email-threads:before {
+    content: "\e619";
+}
+.ico-grid-view:before {
+    content: "\e61a";
+}
+.ico-related-documents:before {
+    content: "\e61b";
+}
+
