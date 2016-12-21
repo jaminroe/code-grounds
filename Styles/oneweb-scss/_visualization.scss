@@ -1,0 +1,185 @@
+@import "_mixins";
+/*#region Visualization*/
+#reportList ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#reportList li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+    #reportList li:hover {
+        background-color: #39444E;
+        cursor: pointer;
+    }
+
+    #reportList li.report-active {
+        background-color: #39444E;
+        cursor: default;
+    }
+
+.reportSection {
+    padding: 5px;
+    /*border: 1px solid #86B3D8;*/
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+    .reportSection label {
+        padding: 0 15px 0 10px;
+    }
+
+    .reportSection select, .reportSection input[type=date] {
+        height: 30px;
+        padding: 3px;
+        border-radius: 4px;
+        border-color: lightslategrey;
+    }
+
+    .reportSection .listbox {
+        height: 200px;
+        /* width: 20%; */
+        padding: 5px;
+        border: 1px solid grey;
+    }
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.node {
+    font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    fill: #bbb;
+}
+
+    .node:hover {
+        fill: #000;
+    }
+
+.link {
+    stroke: steelblue;
+    stroke-opacity: .4;
+    fill: none;
+    pointer-events: none;
+}
+
+.node:hover,
+.node--source,
+.node--target,
+.node--both {
+    font-weight: 700;
+}
+
+.node--source {
+    fill: #2ca02c;
+}
+
+.node--target {
+    fill: #d62728;
+}
+
+.node--both {
+    fill: orange;
+}
+
+.link--source,
+.link--target,
+.link--both {
+    stroke-opacity: 1;
+    stroke-width: 2px;
+}
+
+.link--source {
+    stroke: #d62728;
+}
+
+.link--target {
+    stroke: #2ca02c;
+}
+
+.link--both {
+    stroke: orange;
+}
+
+
+#tooltip {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+    #tooltip.hidden {
+        display: none;
+    }
+
+    #tooltip p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+.indent {
+    padding-left: 5px;
+}
+
+.rect {
+    transition: all 0.3s;
+}
+/*rect:hover {
+    fill: transparent;
+}*/
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+#DivD3 {
+    font-family: $base-font-family;
+    width: 960px;
+    position: relative;
+}
+
+path.slice {
+    stroke-width: 2px;
+}
+
+polyline {
+    opacity: .3;
+    stroke: black;
+    stroke-width: 2px;
+    fill: none;
+}
+
+svg text.percent {
+    fill: white;
+    text-anchor: middle;
+    font-size: 12px;
+}
+/*#endregion Reports*/

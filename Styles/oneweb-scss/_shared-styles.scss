@@ -1,0 +1,207 @@
+@import "_mixins.scss";
+/*#region Shared Styles */
+
+//These are styles shared between oneweb.scss, casemanager.scss, etc.
+.dark-jqx-grid {
+    background: none;
+    border-color: rgba(136,185,228,.5);
+    border-radius: 6px;
+
+    .jqx-grid-cell {
+        font-size: 16px;
+        background: transparent;
+        border-color: rgba(136,185,228,.5);
+        color: #dce2ed;
+
+        &-hover {
+            background: #45525E !important;
+        }
+    }
+
+    .jqx-grid-content-dr1 {
+        background: none;
+    }
+
+    .jqx-grid-cell-selected-dr1 {
+        background: #38434D !important;
+        border-color: $brand-blue !important;
+        box-shadow: inset 0 1px 0 1px $brand-blue, inset 0 0 6px 2px rgba(47, 180, 233, .25);
+        color: $brand-blue-light !important;
+    }
+
+}
+
+.wrap-case-actions {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    .case-details {
+        flex: 2 2 auto;
+        color: $gray-lightest;
+        font-size: 16px;
+
+        table > tbody td {
+            padding: 8px 10px;
+
+            &:nth-child(1) {
+                font-weight: $medium-font-weight;
+            }
+
+            &:nth-child(2) {
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.case-actions {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex: 0 1 auto;
+    margin-bottom: 40px;
+
+    .case-action {
+        border-radius: 10px;
+        cursor: pointer;
+        height: 100px;
+        width: 100px;
+        border: 1px solid transparent;
+        padding: 15px 20px;
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 100px;
+        justify-content: space-between;
+        align-items: center;
+        transition: .15s all ease-out;
+
+        &:hover {
+            background: #45525E;
+            border: 1px solid #657482;
+        }
+
+        [class^="ico-"] {
+            font-size: 40px;
+            color: #63C6EE;
+        }
+
+        p {
+            font-size: 16px;
+            color: #A5B4C2;
+            margin: 0;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        &.disabled {
+            cursor: not-allowed;
+            background: none;
+            @include nav-btn-disabled;
+            border-color: transparent;
+        }
+
+        &.disabled i,
+        &.disabled p {
+            color: inherit;
+        }
+    }
+}
+
+/*#region Create Case Wizard*/
+
+.user-assoc-btns {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wrap-Custodians,
+#wrap-CustodianList {
+    height: calc(100% - 70px);
+}
+
+.renditionTree {
+    height: calc(100% - 110px) !important;
+}
+
+#divRenMetaDataGrid {
+    height: calc(100% - 143px);
+}
+
+#divonepassmetadatalist {
+
+}
+
+#divrenditionmetadatalist {
+    height: calc(100% - 32px);
+}
+
+#divApplicationSettings ul#appSettings-btns {
+
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+    max-width: 1080px;
+    align-self: center;
+
+    li {
+        flex: 0 1 64px;
+        text-align: center;
+            
+        i {
+            width: 64px;
+            height: 64px;
+            border-radius: 8px;
+            border: 1px solid transparent;
+            padding: 12px;
+            display: inline-block;
+        }
+
+        &:hover i {
+            background-color: #edf6fa;
+	        border: 1px solid $brand-blue-light;
+        }
+
+        &.active i {
+            @include active-blue-glow;
+        }
+
+        p {
+            font-size: 16px;
+	        color: $btn-color-dark;
+            margin-top: 6px;
+        }
+    }
+}
+
+/*#endregion Create Case Wizard*/
+
+//Data/Upload
+#sessionNestedGrid {
+    height: calc(100% - 45px) !important;
+}
+
+#divDialogFileUploadTemplate {
+    #drop_zone {
+        height: 100px;
+        border: #2386AE dashed 2px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 10px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#tab-addNewData .wrap-case-actions {
+    justify-content: space-between;
+}
+
+/*#endregion */

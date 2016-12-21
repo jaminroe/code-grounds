@@ -1,0 +1,148 @@
+@import "_mixins";
+/*#region Typography*/
+
+h1, h2, h3, h4, h5 {
+    font-family: $base-font-family;
+    font-weight: $header-font-weight;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 19px;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1.subheader, h2.subheader, h3.subheader, h4.subheader, h5.subheader {
+    font-weight: normal;
+}
+
+.small {
+    font-size: 80%;
+}
+
+.big {
+    font-size: 140%;
+}
+
+.intro-text {
+    font-weight: $base-font-weight;
+    font-size: 18px;
+    color: $gray-base-dark;
+    line-height: 26px;
+}
+
+.Lato-light {
+    font-family: $font-family;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.Lato-reg {
+    font-family: $font-family;
+    font-weight: $base-font-weight;
+    font-style: normal;
+}
+
+.Lato-it, i:not([class*="ico-"]), em {
+    @extend .Lato-reg;
+    font-style: italic;
+}
+
+.Lato-med {
+    font-family: $font-family;
+    font-weight: $medium-font-weight;
+    font-style: normal;
+}
+
+.Lato-ultra-bold, b, strong {
+    font-family: $font-family;
+    font-weight: $bold-font-weight;
+    font-style: normal;
+}
+
+.text-muted {
+    color: $color-muted;
+}
+
+.text-light {
+    color: $gray-light;
+}
+
+.text-primary {
+    color: $color-secondary;
+}
+.text-brand-blue {
+    color: $brand-blue;
+}
+
+.text-background-brand-blue{
+    background-color:$brand-blue;
+    color:white;
+}
+
+.text-success,
+.success {
+    color: $color-success;
+}
+
+.text-warning {
+    color: $color-warning;
+}
+
+.text-danger,
+.error,
+.validation-summary-errors {
+    color: saturate($color-danger, 14%);
+}
+
+::-webkit-input-placeholder {
+    color: #C6C9CC;
+}
+
+:-moz-placeholder {
+    color: #C6C9CC;
+}
+
+::-moz-placeholder {
+    color: #C6C9CC;
+}
+
+:-ms-input-placeholder {
+    color: #C6C9CC;
+}
+
+/*#endregion*/
