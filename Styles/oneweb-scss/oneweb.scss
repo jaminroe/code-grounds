@@ -1,11 +1,11 @@
 // Core & Components
-@import "_global";
-@import "_formcontrols";
-@import "_buttons";
-@import "_jqwidgets";
-@import "_svgicons";
-@import "_shared-styles";
+@import "_global.scss";
+@import "_formcontrols.scss";
+@import "_buttons.scss";
+@import "_jqwidgets.scss";
+@import "_svgicons.scss";
+@import "_shared-styles.scss";
 
 // Modules
-@import "_validation";
-@import "_visualization";
+@import "_validation.scss";
+@import "_visualization.scss";
