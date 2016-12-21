@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icomoon';
   src:
-    url('fonts/icomoon.ttf?7mcvok') format('truetype'),
-    url('fonts/icomoon.woff?7mcvok') format('woff'),
-    url('fonts/icomoon.svg?7mcvok#icomoon') format('svg');
+    url('fonts/icomoon.ttf?nw7csp') format('truetype'),
+    url('fonts/icomoon.woff?nw7csp') format('woff'),
+    url('fonts/icomoon.svg?nw7csp#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -153,13 +153,7 @@
   content: "\e623";
 }
 .ico-calculator:before {
-  content: "\e900";
-}
-.ico-math:before {
-  content: "\e900";
-}
-.ico-arithmetic:before {
-  content: "\e900";
+  content: "\e92e";
 }
 .ico-magic-wand:before {
   content: "\e920";
@@ -335,6 +329,36 @@
 .ico-group-tag:before {
   content: "\e607";
 }
+.ico-export-search:before {
+  content: "\e900";
+}
+.ico-clear-search:before {
+  content: "\e901";
+}
+.ico-execute-search:before {
+  content: "\e902";
+}
+.ico-check-out:before {
+  content: "\e608";
+}
+.ico-check-in:before {
+  content: "\e609";
+}
+.ico-delete-document:before {
+  content: "\e60b";
+}
+.ico-reassign-folder:before {
+  content: "\e60a";
+}
+.ico-add-root:before {
+  content: "\e60c";
+}
+.ico-delete-folder:before {
+  content: "\e60d";
+}
+.ico-reassign:before {
+  content: "\e60e";
+}
 .ico-compass:before {
   content: "\e91e";
 }
@@ -370,6 +394,9 @@
 }
 .ico-ms-word:before {
   content: "\e919";
+}
+.ico-view-all-subdocs:before {
+  content: "\e642";
 }
 .ico-image-viewer:before {
   content: "\e616";
