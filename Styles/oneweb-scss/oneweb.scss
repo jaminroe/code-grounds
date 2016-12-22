@@ -1872,6 +1872,7 @@ input[type=radio]:disabled:checked + label,
 }
 
 input[type=radio]:checked + label,
+input[type=radio]:checked:hover + label,
 .dynatree-selected span.dynatree-radio,
 .dynatree-selected span.dynatree-radio:hover {
     background-position: 0 -160px;
