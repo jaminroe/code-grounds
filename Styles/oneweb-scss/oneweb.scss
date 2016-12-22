@@ -1777,7 +1777,135 @@ footer {
 
 /*#endregion */
 
-/*#endregion */
+/*#region Icons & Images*/
+
+/*#region Checkboxes & Radio*/
+
+input[type=checkbox] + label,
+input[type=radio] + label,
+span.dynatree-checkbox,
+span.dynatree-radio {
+    background-image: url('data:image/png;base64,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') /*/Content/Images/Sprites/checkbox_radio.sprite.png*/;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    cursor: pointer;
+}
+
+span.dynatree-checkbox,
+span.dynatree-radio {
+    cursor: default;
+}
+
+//Checked-disabled
+input[type=checkbox]:checked:disabled + label, 
+input[type=checkbox]:checked:disabled + label:hover,
+.dynatree-selected.dynatree-disabled span.dynatree-checkbox,
+.dynatree-selected.dynatree-disabled span.dynatree-checkbox:hover {
+    background-position: 0 0;
+}
+
+//Checked
+input[type=checkbox]:checked + label,
+.dynatree-selected span.dynatree-checkbox,
+.dynatree-chkboxselected span.dynatree-checkbox,
+.dynatree-selected span.dynatree-checkbox:hover,
+.dynatree-chkboxselected span.dynatree-checkbox:hover  {
+    background-position: 0 -16px;
+}
+
+//Disabled unchecked
+input[type=checkbox]:disabled + label,
+input[type=checkbox]:disabled + label:hover,
+.dynatree-disabled span.dynatree-checkbox,
+.dynatree-disabled span.dynatree-checkbox:hover {
+    background-position: 0 -32px;
+}
+
+//Hover
+input[type=checkbox] + label:hover,
+.checkbox:hover input[type=checkbox] + label,
+.checkbox-inline:hover input[type=checkbox] + label,
+span.dynatree-checkbox:hover {
+    width: 18px;
+    background-position: 0 -48px;
+}
+
+//Indeterminate disabled
+input[type=checkbox].indeterminate:disabled + label {
+    background-position: 0 -64px;
+}
+
+//Indeterminate
+input[type=checkbox].indeterminate + label,
+span.dynatree-checkbox.indeterminate {
+    background-position: 0 -80px;
+}
+
+//Unchecked
+input[type=checkbox] + label,
+span.dynatree-checkbox {
+    background-position: 0 -96px;
+}
+
+//Radio disabled
+input[type=radio]:disabled + label,
+input[type=radio]:disabled + label:hover,
+.dynatree-disabled span.dynatree-radio,
+.dynatree-disabled span.dynatree-radio:hover {
+    background-position: 0 -112px;
+}
+
+//Hover
+input[type=radio] + label:hover,
+.radio:hover input[type=radio] + label,
+.radio-inline:hover input[type=radio] + label,
+span.dynatree-radio:hover {
+    background-position: 0 -128px;
+}
+
+input[type=radio]:disabled:checked + label,
+.dynatree-selected.dynatree-disabled span.dynatree-radio,
+.dynatree-selected.dynatree-disabled span.dynatree-radio:hover {
+    background-position: 0 -144px;
+}
+
+input[type=radio]:checked + label,
+.dynatree-selected span.dynatree-radio,
+.dynatree-selected span.dynatree-radio:hover {
+    background-position: 0 -160px;
+}
+
+input[type=radio] + label,
+span.dynatree-radio {
+    background-position: 0 -176px;
+}
+/*#endregion*/
+
+
+/* Retina-specific stuff here */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+    #documentViewerTabs .ui-button-icon-only [class~="ui-icon"],
+    #documentViewerTabs [class*="ui-icon-"],
+    #btnLayers .ui-icon.ui-icon-annotation-groups {
+        background-image: url("/Content/Images/Sprites/doc-viewer-2x.png");
+        background-size: 1154px 36px;
+    }
+
+    input[type=checkbox] + label,
+    input[type=radio] + label,
+    span.dynatree-checkbox,
+    span.dynatree-radio {
+        background-image: url("/Content/Images/Sprites/checkbox_radio@2x.sprite.png?v=20150520");
+        background-size: 18px 192px;
+    }
+}
+
+/*#endregion Icons & Images*/
+
+/*#Helpers */
 .show {
     display: block !important;
 }

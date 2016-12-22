@@ -1,0 +1,319 @@
+{
+  "images": [
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/actual-size@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 20,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/add-comment@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 72,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/annotation-groups@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 124,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/best-fit@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 176,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/doc-info@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 228,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/draft-mode@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 280,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/first-document@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 332,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/first-image@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 384,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/fit-to-height@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 436,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/fit-to-width@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 488,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/floppy-disk@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 540,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/last-document@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 592,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/last-image@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 644,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/launch-native@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 696,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/next-annotation@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 748,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/next-document@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 800,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/next-image@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 852,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/next-keyword@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 904,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/next-page@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 956,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/normal-mode@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1008,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/prev-annotation@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1060,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/prev-document@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1112,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/prev-image@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1164,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/prev-keyword@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1216,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/prev-page@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1268,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/preview-mode@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1320,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/print@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1372,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/redaction-fill@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1424,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/redaction-invert@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1476,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/redaction-standard@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1528,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/remove-highlight@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1580,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/rotate-180@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1632,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/rotate-left@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1684,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/rotate-right@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1736,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/rotate-sticky@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1788,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/search-next@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1840,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/search-prev@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1892,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/search-start@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1944,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/select-redaction@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 1996,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/supervision-mode@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 2048,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/text-selection@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 2100,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/toggle-highlight@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 2152,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/zoom-in@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 2204,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/zoom-out@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 2256,
+      "offsetY": 20
+    },
+    {
+      "name": "/Content/Images/Sprites/doc_viewer/retina/zoom-reset@2x.png",
+      "width": 32,
+      "height": 32,
+      "offsetX": 2308,
+      "offsetY": 20
+    }
+  ]
+}
