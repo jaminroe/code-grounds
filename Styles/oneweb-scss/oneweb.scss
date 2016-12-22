@@ -1776,3 +1776,18 @@ footer {
 }
 
 /*#endregion */
+
+/*#endregion */
+.show {
+    display: block !important;
+}
+
+.inline-show {
+    display: inline-block !important;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+/*#endregion */
