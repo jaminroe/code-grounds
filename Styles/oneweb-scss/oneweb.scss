@@ -1887,18 +1887,11 @@ span.dynatree-radio {
 /* Retina-specific stuff here */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 
-    #documentViewerTabs .ui-button-icon-only [class~="ui-icon"],
-    #documentViewerTabs [class*="ui-icon-"],
-    #btnLayers .ui-icon.ui-icon-annotation-groups {
-        background-image: url("/images/sprites/doc-viewer-2x.png");
-        background-size: 1154px 36px;
-    }
-
     input[type=checkbox] + label,
     input[type=radio] + label,
     span.dynatree-checkbox,
     span.dynatree-radio {
-        background-image: url("/images/sprites/checkbox_radio@2x.sprite.png?v=20150520");
+        background-image: url("https://rawgit.com/jaminroe/code-grounds/master/Styles/oneweb-scss/images/sprites/checkbox_radio%402x.sprite.png");
         background-size: 18px 192px;
     }
 }
