@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icomoon';
   src:
-    url('fonts/icomoon.ttf?nw7csp') format('truetype'),
-    url('fonts/icomoon.woff?nw7csp') format('woff'),
-    url('fonts/icomoon.svg?nw7csp#icomoon') format('svg');
+    url('fonts/icomoon.ttf?t0w2x8') format('truetype'),
+    url('fonts/icomoon.woff?t0w2x8') format('woff'),
+    url('fonts/icomoon.svg?t0w2x8#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -202,6 +202,9 @@
 }
 .ico-tools:before {
   content: "\e615";
+}
+.ico-checkmark:before {
+  content: "\eb94";
 }
 .ico-proj-docs:before {
   content: "\e90c";
