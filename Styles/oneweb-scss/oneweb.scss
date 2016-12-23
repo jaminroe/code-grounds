@@ -53,6 +53,11 @@ $issue-non-responsive:#cdffff;
     text-shadow: 0 0 3px change-color($brand-green, $saturation: 100%, $lightness: 88%, $alpha: .4);
 }
 
+@mixin active-green-glow {
+    background: $brand-green;
+    box-shadow: 0 0 6px change-color($brand-green, $saturation: 100%, $lightness: 88%, $alpha: .4);
+}
+
 @mixin active-blue-glow {
     border: 1px solid $brand-blue;
     box-shadow: 0 0 6px change-color($brand-blue, $saturation: 100%, $lightness: 88%, $alpha: .75);
