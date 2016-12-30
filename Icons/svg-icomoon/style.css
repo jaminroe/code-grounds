@@ -1,0 +1,96 @@
+[class^="ico-"], [class*=" ico-"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.ico-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.ico-reports {
+  width: 0.875em;
+}
+
+.ico-3rd-party {
+  width: 0.9375em;
+}
+
+.ico-integer {
+  width: 1.0712890625em;
+}
+
+.ico-proj-docs {
+  width: 1.0001502403846154em;
+}
+
+.ico-search-history {
+  width: 0.9996243990384616em;
+}
+
+.ico-dyn-prod {
+  width: 1.0013521634615385em;
+}
+
+.ico-priv-log {
+  width: 0.9997746394230769em;
+}
+
+.ico-power {
+  width: 0.9443359375em;
+}
+
+.ico-folder-processing {
+  width: 1.05859375em;
+}
+
+.ico-autopool {
+  width: 1.05859375em;
+}
+
+.ico-folder-closed {
+  width: 1.2001953125em;
+}
+
+.ico-folder-open {
+  width: 1.2001953125em;
+}
+
+.ico-group-tag {
+  width: 1.2861328125em;
+}
+
+.ico-check-out {
+  width: 0.888671875em;
+}
+
+.ico-check-in {
+  width: 0.888671875em;
+}
+
+.ico-reassign {
+  width: 0.9443359375em;
+}
+
+.ico-view-all-subdocs {
+  width: 0.900390625em;
+}
+
+.ico-duplicates {
+  width: 0.7998046875em;
+}
+
+.ico-near-duplicates {
+  width: 0.814453125em;
+}
+
+.ico-email-threads {
+  width: 1.3330078125em;
+}

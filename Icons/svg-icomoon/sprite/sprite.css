@@ -1,0 +1,671 @@
+[class^="ico-"], [class*=" ico-"] {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.ico-chrome {
+  width: 16px;
+  height: 16px;
+  background-position: 0 0;
+}
+.ico-audio {
+  width: 16px;
+  height: 16px;
+  background-position: -32px 0;
+}
+.ico-target {
+  width: 16px;
+  height: 16px;
+  background-position: -64px 0;
+}
+.ico-video-camera {
+  width: 16px;
+  height: 16px;
+  background-position: -96px 0;
+}
+.ico-file-access {
+  width: 16px;
+  height: 16px;
+  background-position: -128px 0;
+}
+.ico-file-cad {
+  width: 16px;
+  height: 16px;
+  background-position: -160px 0;
+}
+.ico-file-excel {
+  width: 16px;
+  height: 16px;
+  background-position: -192px 0;
+}
+.ico-file-office {
+  width: 16px;
+  height: 16px;
+  background-position: -224px 0;
+}
+.ico-file-pdf {
+  width: 16px;
+  height: 16px;
+  background-position: -256px 0;
+}
+.ico-file-powerpoint {
+  width: 16px;
+  height: 16px;
+  background-position: -288px 0;
+}
+.ico-file-project {
+  width: 16px;
+  height: 16px;
+  background-position: -320px 0;
+}
+.ico-file-text {
+  width: 16px;
+  height: 16px;
+  background-position: -352px 0;
+}
+.ico-file-vizio {
+  width: 16px;
+  height: 16px;
+  background-position: -384px 0;
+}
+.ico-file-word {
+  width: 16px;
+  height: 16px;
+  background-position: -416px 0;
+}
+.ico-html-five {
+  width: 16px;
+  height: 16px;
+  background-position: -448px 0;
+}
+.ico-arrow-up {
+  width: 16px;
+  height: 16px;
+  background-position: -480px 0;
+}
+.ico-battery-progress {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -32px;
+}
+.ico-hammer {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -32px;
+}
+.ico-reports {
+  width: 14px;
+  height: 16px;
+  background-position: -64px -32px;
+}
+.ico-import {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -32px;
+}
+.ico-environment {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -32px;
+}
+.ico-servers {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -32px;
+}
+.ico-volumes {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -32px;
+}
+.ico-raw-data {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -32px;
+}
+.ico-3rd-party {
+  width: 15px;
+  height: 16px;
+  background-position: -256px -32px;
+}
+.ico-teams {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -32px;
+}
+.ico-users {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -32px;
+}
+.ico-table {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -32px;
+}
+.ico-trashcan {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -32px;
+}
+.ico-edit {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -32px;
+}
+.ico-cloud-upload {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -32px;
+}
+.ico-rocket {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -32px;
+}
+.ico-crying {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -64px;
+}
+.ico-eraser {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -64px;
+}
+.ico-filter {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -64px;
+}
+.ico-add-user {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -64px;
+}
+.ico-remove-user {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -64px;
+}
+.ico-sort-alpha-desc {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -64px;
+}
+.ico-sort-alpha-asc {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -64px;
+}
+.ico-integer {
+  width: 17px;
+  height: 16px;
+  background-position: -224px -64px;
+}
+.ico-max-string {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -64px;
+}
+.ico-string {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -64px;
+}
+.ico-datetime {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -64px;
+}
+.ico-calculator {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -64px;
+}
+.ico-magic-wand {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -64px;
+}
+.ico-help {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -64px;
+}
+.ico-meter {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -64px;
+}
+.ico-file-check {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -64px;
+}
+.ico-viewer-collapse {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -96px;
+}
+.ico-close {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -96px;
+}
+.ico-pop-in {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -96px;
+}
+.ico-pop-out {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -96px;
+}
+.ico-eye {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -96px;
+}
+.ico-user-line {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -96px;
+}
+.ico-about {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -96px;
+}
+.ico-preferences {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -96px;
+}
+.ico-refresh {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -96px;
+}
+.ico-search {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -96px;
+}
+.ico-view {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -96px;
+}
+.ico-tools {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -96px;
+}
+.ico-checkmark {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -96px;
+}
+.ico-proj-docs {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -128px;
+}
+.ico-static {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -128px;
+}
+.ico-review-doc {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -128px;
+}
+.ico-dynamic {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -128px;
+}
+.ico-search-history {
+  width: 32px;
+  height: 32px;
+  background-position: -192px -128px;
+}
+.ico-save-search {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -128px;
+}
+.ico-camera {
+  width: 32px;
+  height: 32px;
+  background-position: -288px -128px;
+}
+.ico-dyn-prod {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -128px;
+}
+.ico-stats-dots {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -128px;
+}
+.ico-priv-log {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -128px;
+}
+.ico-folder-basic {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -128px;
+}
+.ico-workspace {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -128px;
+}
+.ico-collapse {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -128px;
+}
+.ico-expand {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -128px;
+}
+.ico-burger-menu {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -128px;
+}
+.ico-info-fill {
+  width: 24px;
+  height: 24px;
+  background-position: 0 -176px;
+}
+.ico-pause-circle-fill {
+  width: 24px;
+  height: 24px;
+  background-position: -40px -176px;
+}
+.ico-play-circle-fill {
+  width: 24px;
+  height: 24px;
+  background-position: -80px -176px;
+}
+.ico-cancel {
+  width: 24px;
+  height: 24px;
+  background-position: -120px -176px;
+}
+.ico-composite {
+  width: 24px;
+  height: 24px;
+  background-position: -160px -176px;
+}
+.ico-power {
+  width: 30px;
+  height: 32px;
+  background-position: 0 -216px;
+}
+.ico-spy {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -216px;
+}
+.ico-key {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -216px;
+}
+.ico-open-book {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -216px;
+}
+.ico-flow-branch {
+  width: 32px;
+  height: 32px;
+  background-position: -192px -216px;
+}
+.ico-key-shortcut {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -216px;
+}
+.ico-collaboration {
+  width: 32px;
+  height: 32px;
+  background-position: -288px -216px;
+}
+.ico-globe {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -216px;
+}
+.ico-data-setting {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -216px;
+}
+.ico-review-planning {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -216px;
+}
+.ico-briefcase {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -216px;
+}
+.ico-review-mgmt {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -216px;
+}
+.ico-group-mgmt {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -216px;
+}
+.ico-config {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -216px;
+}
+.ico-folder-processing {
+  width: 34px;
+  height: 32px;
+  background-position: -672px -216px;
+}
+.ico-autopool {
+  width: 34px;
+  height: 32px;
+  background-position: 0 -264px;
+}
+.ico-batch {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -264px;
+}
+.ico-batch-checked-in {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -264px;
+}
+.ico-folder-closed {
+  width: 38px;
+  height: 32px;
+  background-position: -144px -264px;
+}
+.ico-folder-open {
+  width: 38px;
+  height: 32px;
+  background-position: -192px -264px;
+}
+.ico-group-tag {
+  width: 41px;
+  height: 32px;
+  background-position: -240px -264px;
+}
+.ico-export-search {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -264px;
+}
+.ico-clear-search {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -264px;
+}
+.ico-execute-search {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -264px;
+}
+.ico-check-out {
+  width: 28px;
+  height: 32px;
+  background-position: -480px -264px;
+}
+.ico-check-in {
+  width: 28px;
+  height: 32px;
+  background-position: -528px -264px;
+}
+.ico-delete-document {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -264px;
+}
+.ico-reassign-folder {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -264px;
+}
+.ico-add-root {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -264px;
+}
+.ico-delete-folder {
+  width: 32px;
+  height: 32px;
+  background-position: -720px -264px;
+}
+.ico-reassign {
+  width: 30px;
+  height: 32px;
+  background-position: 0 -312px;
+}
+.ico-compass {
+  width: 21px;
+  height: 21px;
+  background-position: 0 -360px;
+}
+.ico-lock {
+  width: 21px;
+  height: 21px;
+  background-position: -37px -360px;
+}
+.ico-unlock {
+  width: 21px;
+  height: 21px;
+  background-position: -74px -360px;
+}
+.ico-production {
+  width: 21px;
+  height: 21px;
+  background-position: -111px -360px;
+}
+.ico-translated-text {
+  width: 21px;
+  height: 21px;
+  background-position: -148px -360px;
+}
+.ico-file-tree {
+  width: 40px;
+  height: 40px;
+  background-position: 0 -397px;
+}
+.ico-unzip {
+  width: 40px;
+  height: 40px;
+  background-position: -56px -397px;
+}
+.ico-ms-excel {
+  width: 40px;
+  height: 40px;
+  background-position: -112px -397px;
+}
+.ico-ms-powerpoint {
+  width: 40px;
+  height: 40px;
+  background-position: -168px -397px;
+}
+.ico-ms-project {
+  width: 40px;
+  height: 40px;
+  background-position: -224px -397px;
+}
+.ico-ms-visio {
+  width: 40px;
+  height: 40px;
+  background-position: -280px -397px;
+}
+.ico-ms-word {
+  width: 40px;
+  height: 40px;
+  background-position: -336px -397px;
+}
+.ico-view-all-subdocs {
+  width: 36px;
+  height: 40px;
+  background-position: -392px -397px;
+}
+.ico-image-viewer {
+  width: 27px;
+  height: 27px;
+  background-position: 0 -453px;
+}
+.ico-text-viewer {
+  width: 27px;
+  height: 27px;
+  background-position: -43px -453px;
+}
+.ico-native-viewer {
+  width: 27px;
+  height: 27px;
+  background-position: -86px -453px;
+}
+.ico-duplicates {
+  width: 22px;
+  height: 27px;
+  background-position: -129px -453px;
+}
+.ico-near-duplicates {
+  width: 22px;
+  height: 27px;
+  background-position: -172px -453px;
+}
+.ico-email-threads {
+  width: 36px;
+  height: 27px;
+  background-position: -215px -453px;
+}
+.ico-grid-view {
+  width: 27px;
+  height: 27px;
+  background-position: -301px -453px;
+}
+.ico-related-documents {
+  width: 27px;
+  height: 27px;
+  background-position: -344px -453px;
+}
+
