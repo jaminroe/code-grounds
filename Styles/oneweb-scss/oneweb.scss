@@ -102,6 +102,8 @@ h1, h2, h3, h4, h5 {
     font-family: $base-font-family;
     font-weight: $header-font-weight;
     font-style: normal;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 h1 {
@@ -131,16 +133,6 @@ h6 {
 p {
     margin: 0 0 10px;
     line-height: 19px;
-}
-
-h1, h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-h4, h5, h6 {
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 h1.subheader, h2.subheader, h3.subheader, h4.subheader, h5.subheader {
