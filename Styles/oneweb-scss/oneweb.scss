@@ -92,6 +92,7 @@ $issue-non-responsive:#cdffff;
 
 @mixin container-area {
     border-color: $gray-light;
+	background-color: white;
     border-radius: 6px;
 }
 /*end Mixins*/
