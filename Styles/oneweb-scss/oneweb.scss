@@ -55,7 +55,7 @@ $issue-non-responsive:#cdffff;
 
 @mixin active-green-glow {
     background: $brand-green;
-    box-shadow: 0 0 6px change-color($brand-green, $saturation: 100%, $lightness: 88%, $alpha: .4);
+    box-shadow: 0 0 10px change-color($brand-green, $saturation: 100%, $lightness: 88%, $alpha: .4);
 }
 
 @mixin active-blue-glow {
@@ -92,6 +92,7 @@ $issue-non-responsive:#cdffff;
 
 @mixin container-area {
     border-color: $gray-light;
+	background-color: white;
     border-radius: 6px;
 }
 /*end Mixins*/
@@ -102,6 +103,8 @@ h1, h2, h3, h4, h5 {
     font-family: $base-font-family;
     font-weight: $header-font-weight;
     font-style: normal;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 h1 {
@@ -131,16 +134,6 @@ h6 {
 p {
     margin: 0 0 10px;
     line-height: 19px;
-}
-
-h1, h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-h4, h5, h6 {
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 h1.subheader, h2.subheader, h3.subheader, h4.subheader, h5.subheader {
@@ -201,6 +194,9 @@ h1.subheader, h2.subheader, h3.subheader, h4.subheader, h5.subheader {
 
 .text-primary {
     color: $color-secondary;
+}
+.text-secondary {
+    color:$brand-blue-dark;
 }
 .text-brand-blue {
     color: $brand-blue;
@@ -1956,5 +1952,9 @@ span.dynatree-radio {
 
 .m-bottom-40 {
     margin-bottom: 40px;
+}
+
+.pointer {
+	cursor: pointer;
 }
 /*#endregion */
