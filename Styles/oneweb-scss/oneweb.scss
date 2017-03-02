@@ -55,7 +55,7 @@ $issue-non-responsive:#cdffff;
 
 @mixin active-green-glow {
     background: $brand-green;
-    box-shadow: 0 0 6px change-color($brand-green, $saturation: 100%, $lightness: 88%, $alpha: .4);
+    box-shadow: 0 0 10px change-color($brand-green, $saturation: 100%, $lightness: 88%, $alpha: .4);
 }
 
 @mixin active-blue-glow {
