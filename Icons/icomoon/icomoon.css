@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icomoon';
   src:
-    url('fonts/icomoon.ttf?t0w2x8') format('truetype'),
-    url('fonts/icomoon.woff?t0w2x8') format('woff'),
-    url('fonts/icomoon.svg?t0w2x8#icomoon') format('svg');
+    url('fonts/icomoon.ttf?n5y9jq') format('truetype'),
+    url('fonts/icomoon.woff?n5y9jq') format('woff'),
+    url('fonts/icomoon.svg?n5y9jq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -68,6 +68,12 @@
 .ico-html-five:before {
   content: "\e92b";
 }
+.ico-office:before {
+  content: "\e932";
+}
+.ico-warning:before {
+  content: "\eb83";
+}
 .ico-arrow-up:before {
   content: "\e92d";
 }
@@ -90,7 +96,10 @@
   content: "\e63f";
 }
 .ico-volumes:before {
-  content: "\ea2a";
+  content: "\ea2b";
+}
+.ico-database:before {
+  content: "\ea2b";
 }
 .ico-raw-data:before {
   content: "\e63b";
@@ -150,7 +159,7 @@
   content: "\e622";
 }
 .ico-datetime:before {
-  content: "\e623";
+  content: "\e636";
 }
 .ico-calculator:before {
   content: "\e92e";
@@ -177,7 +186,7 @@
   content: "\e611";
 }
 .ico-pop-out:before {
-  content: "\e61c";
+  content: "\e642";
 }
 .ico-eye:before {
   content: "\e1e9";
@@ -195,16 +204,13 @@
   content: "\e614";
 }
 .ico-search:before {
-  content: "\e636";
+  content: "\e648";
 }
 .ico-view:before {
   content: "\e91f";
 }
 .ico-tools:before {
   content: "\e615";
-}
-.ico-checkmark:before {
-  content: "\eb94";
 }
 .ico-proj-docs:before {
   content: "\e90c";
@@ -250,6 +256,15 @@
 }
 .ico-burger-menu:before {
   content: "\e913";
+}
+.ico-hourglass-empty:before {
+  content: "\e930";
+}
+.ico-hourglass-full:before {
+  content: "\e931";
+}
+.ico-checkmark:before {
+  content: "\e92f";
 }
 .ico-info-fill:before {
   content: "\e647";
@@ -399,30 +414,30 @@
   content: "\e919";
 }
 .ico-view-all-subdocs:before {
-  content: "\e642";
+  content: "\e649";
 }
 .ico-image-viewer:before {
-  content: "\e616";
+  content: "\e617";
 }
 .ico-text-viewer:before {
   content: "\e603";
 }
 .ico-native-viewer:before {
-  content: "\e617";
+  content: "\e618";
 }
 .ico-duplicates:before {
-  content: "\e618";
+  content: "\e619";
 }
 .ico-near-duplicates:before {
   content: "\e61e";
 }
 .ico-email-threads:before {
-  content: "\e619";
-}
-.ico-grid-view:before {
   content: "\e61a";
 }
-.ico-related-documents:before {
+.ico-grid-view:before {
   content: "\e61b";
+}
+.ico-related-documents:before {
+  content: "\e61c";
 }
 
