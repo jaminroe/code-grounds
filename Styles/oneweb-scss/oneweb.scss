@@ -577,10 +577,10 @@ select.input-lg {
 
     .input-group-btn > .btn {
         position: relative;
-        padding: 7px 15px;
 
         &:disabled {
-            padding: 6px 15px;
+    		padding-top: 9px;
+		padding-bottom: 9px;
         }
     }
 
