@@ -1836,6 +1836,8 @@ input[type=checkbox]:disabled + label:hover,
 input[type=checkbox] + label:hover,
 .checkbox:hover input[type=checkbox] + label,
 .checkbox-inline:hover input[type=checkbox] + label,
+.checkbox:hover input[type=checkbox]:checked + label,
+.checkbox-inline:hover input[type=checkbox]:checked + label
 span.dynatree-checkbox:hover {
     width: 18px;
     background-position: 0 -48px;
@@ -1870,6 +1872,8 @@ input[type=radio]:disabled + label:hover,
 input[type=radio] + label:hover,
 .radio:hover input[type=radio] + label,
 .radio-inline:hover input[type=radio] + label,
+.radio:hover input[type=radio]:checked + label,
+.radio-inline:hover input[type=radio]:checked + label
 span.dynatree-radio:hover {
     background-position: 0 -128px;
 }
