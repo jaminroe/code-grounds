@@ -1577,6 +1577,11 @@ footer {
 .ico-file-powerpoint { color: #D64311;}
 .ico-file-excel { color: #2F8336;}
 
+.arrow-right:before { content: '\25BA'; }
+.arrow-down:before { content: '\25BC'; }
+.arrow-left:before { content: '\25C4'; }
+.arrow-up:before { content: '\25B2'; }
+
 /*#endregion Icomoon Icons */
 
 /*#region Shared Styles */
